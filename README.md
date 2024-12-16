@@ -112,7 +112,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any queries or feedback, feel free to reach out:
-- **GitHub**: [yourusername](https://github.com/alshariarmithu)
+- **GitHub**: [alshariarmithu](https://github.com/alshariarmithu)
 
 ---
 
