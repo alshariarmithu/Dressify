@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "304197394081",
+    "project_id": "dressify-2-0",
+    "storage_bucket": "dressify-2-0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304197394081:android:29ec7631e996a853d2dae0",
+        "android_client_info": {
+          "package_name": "com.mithu.dressify20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABR7oUgDLRfXhyPcmYp9srb9_lHb01y3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

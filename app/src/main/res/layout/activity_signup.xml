@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WelcomeActivity"
+    android:background="@android:color/white">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="216dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="78dp"
+        android:text="Sign Up"
+        android:textColor="#FF7643"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle Text -->
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_welcome"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="-11dp"
+        android:layout_marginEnd="73dp"
+        android:text="Create an account by filling your details\nor continue with social media"
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="14sp" />
+
+    <!-- Form Container -->
+    <LinearLayout
+        android:id="@+id/form_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_subtitle"
+        android:layout_marginTop="46dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp">
+
+        <!-- Full Name Input -->
+        <EditText
+            android:id="@+id/et_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your full name"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:background="@drawable/outline_input_border" />
+
+        <!-- Email Input -->
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:background="@drawable/outline_input_border" />
+
+        <!-- Password Input -->
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:background="@drawable/outline_input_border" />
+
+        <!-- Continue Button -->
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF7643"
+            android:fontFamily="sans-serif"
+            android:text="Continue"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Social Media Icons -->
+    <LinearLayout
+        android:id="@+id/social_media_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/form_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <!-- No Account Text -->
+    <TextView
+        android:id="@+id/tv_no_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/social_media_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="Already have an account? Sign In"
+        android:textColor="#757575" />
+
+</RelativeLayout>

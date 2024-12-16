@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#FF7643"
+        android:centerColor="#FF8A65"
+        android:endColor="#FF5722"
+        android:angle="225"
+    android:type="linear" />
+
+    <corners
+        android:radius="16dp" /> <!-- Smooth Rounded Corners -->
+
+    <stroke
+        android:width="2dp"
+        android:color="#CC4400" /> <!-- Subtle Border for Definition -->
+
+    <padding
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp"
+        android:bottom="8dp" /> <!-- Inner Padding for Better Spacing -->
+</shape>
