@@ -32,7 +32,7 @@ Welcome to **Dressify**, your ultimate solution for a seamless online shopping e
 ## Tech Stack
 
 ### **Frontend**
-- **Android Studio** (Java/Kotlin)
+- **Android Studio** (Java/)
 - **XML Layouts** for UI Design
 
 ### **Backend**
